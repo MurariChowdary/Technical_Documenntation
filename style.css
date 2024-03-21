@@ -1,0 +1,134 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    position:absolute;
+    left: 30px;
+}
+
+header {
+    background-color: #f0f0f0;
+    padding: 20px;
+    font-family: "Open Sans", Arial, Helvetica, sans-serif;
+    display: block;
+    font-size: 28.8px;
+    line-height: 43.2px;
+    width: 700px;
+}
+
+nav {
+    background-color: #f0f0f0;
+    padding: 20px;
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 250px;
+    height: 100%;
+    overflow-y: scroll;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    margin: 0;
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+}
+
+nav ul li a {
+    color: #333;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    background-color: #555;
+    color: #fff;
+}
+
+main {
+    margin-left: 250px;
+    padding: 20px;
+}
+
+main section {
+    margin-bottom: 20px;
+}
+
+main section h2 {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+main section p {
+    line-height: 1.5;
+}
+
+#article{
+    color: rgb(77,78,83);
+    display: block;
+    font-family: "Open Sans", Arial, Helvetica, sans-serif;
+    font-size: 15.36px;
+    line-height: 23.04px;
+    margin: 15px; 
+}
+
+#li-item{
+    display: list-item;
+    font-family: "Open Sans", Arial, sans-serif;
+    font-size: 15.36px;
+    line-height: 23.04px;
+    list-style-type: disc;
+    margin-bottom: 0px;
+    margin-left: 20px;
+    margin-right: 0px;
+    margin-top: 15px;
+    text-align: left;
+}
+
+li{
+    display: list-item;
+    font-family: "Open Sans", Arial, sans-serif;
+    font-size: 15.36px;
+    line-height: 23.04px;
+}
+
+code{
+    background-color: rgb(247, 247, 247);
+    border-radius: 5px;
+    color: rgb(77, 78, 83);
+    display: block;
+    font-family: monospace;
+    font-size: 12.48px;
+    height: 24.9531px;
+    line-height: 24.96px;
+    margin: 10px;
+    overflow-wrap: normal;
+    padding: 15px;
+    position: relative;
+    text-align: left;
+    width: 620px;
+    word-break: normal;
+}
+
+#if-else-lad{
+    background-color: rgb(247, 247, 247);
+    border-radius: 5px;
+    color: rgb(77, 78, 83);
+    display: block;
+    font-family: monospace;
+    font-size: 12.48px;
+    height: 54.9531px;
+    line-height: 24.96px;
+    margin: 10px;
+    overflow-wrap: normal;
+    padding: 15px;
+    position: relative;
+    text-align: left;
+    width: 620px;
+    word-break: normal;
+}
